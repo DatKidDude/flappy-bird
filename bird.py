@@ -18,8 +18,8 @@ class Bird(Sprite):
         self.rect = self.image.get_rect()
 
         # Start the player in the center of the screen
-        self.rect.center = self.screen_rect.center
+        self.rect.center = (200, 0)
 
 
-        def update(self):
-            pass
+    def update(self):
+        pass
